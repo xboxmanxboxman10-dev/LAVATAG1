@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/SPOILER_supersecretbackend.py",
+      "src": "api/Main Backend.py",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/SPOILER_supersecretbackend.py"
+      "dest": "api/Main Backend.py"
     }
   ]
 }
