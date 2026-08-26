@@ -13,7 +13,7 @@ app.use(express.json({ limit: '50mb' }));
 const settings = {
     TitleId: "8D608",
     SecretKey: "N7XPOQJB8CPZB8U6Q7A1ZNGR1QQE41CAUXJGKC6Q4PIISC69EJ",
-    ApiKey: "OC|28502920776061622|a53576b89a628ce0e21d367080c1d03a",
+    ApiKey: "1296841200171257",
     Webhook: "ugyhsadjhkgbasda"
 };
 
