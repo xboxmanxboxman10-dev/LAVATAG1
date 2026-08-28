@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "api/zestie tags backend.py.py",
+  "main": "api/tuff backend.py",
   "scripts": {
-    "start": "node api/zestie tags backend.py.py",
-    "dev": "nodemon api/zestie tags backend.py.py"
+    "start": "node api/tuff backend.py",
+    "dev": "nodemon api/tuff backend.py"
   },
   "dependencies": {
     "express": "^4.18.2",

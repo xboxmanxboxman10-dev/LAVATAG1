@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/zestie tags backend.py.py",
+      "src": "api/tuff backend.py",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/zestie tags backend.py.py"
+      "dest": "api/tuff backend.py"
     }
   ]
 }
