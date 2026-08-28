@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/tuff backend.py",
+      "src": "api/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/tuff backend.py"
+      "dest": "api/index.js"
     }
   ]
 }
